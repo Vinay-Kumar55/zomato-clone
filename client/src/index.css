@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #fafafa; color: #1c1c1c; }
+a { color: inherit; text-decoration: none; }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 14px 24px; background: #fff; box-shadow: 0 1px 6px #0001; position: sticky; top: 0; }
+.logo { font-size: 24px; font-weight: 800; color: #e23744; } .logo span { color: #1c1c1c; font-weight: 400; }
+.links { display: flex; gap: 16px; align-items: center; }
+.container { max-width: 960px; margin: 24px auto; padding: 0 16px 80px; }
+.filters { display: flex; gap: 10px; margin-bottom: 12px; }
+input, select, textarea { padding: 10px; border: 1px solid #ddd; border-radius: 8px; font: inherit; }
+.filters input { flex: 1; } textarea { width: 100%; min-height: 70px; margin-bottom: 12px; }
+button { padding: 8px 14px; border: 1px solid #ddd; background: #fff; border-radius: 8px; cursor: pointer; font: inherit; }
+button.primary { background: #e23744; color: #fff; border-color: #e23744; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; } .chips .on { background: #1c1c1c; color: #fff; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.card { display: block; background: #fff; padding: 16px; border-radius: 12px; box-shadow: 0 1px 6px #0001; margin-bottom: 12px; }
+.emoji { font-size: 56px; background: #fff3f4; border-radius: 10px; text-align: center; padding: 12px; margin-bottom: 8px; }
+.rating { background: #24963f; color: #fff; font-size: 12px; padding: 2px 6px; border-radius: 6px; }
+.muted { color: #777; margin: 4px 0; } .error { color: #c00; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid #eee; }
+.qty { display: flex; align-items: center; gap: 10px; }
+.dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; } .veg { background: #24963f; } .nonveg { background: #c0392b; }
+.form { max-width: 360px; margin: 40px auto; display: flex; flex-direction: column; gap: 12px; }
+.link { cursor: pointer; text-decoration: underline; text-align: center; }
+.floating { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #e23744; color: #fff; padding: 12px 28px; border-radius: 10px; font-weight: 600; }
